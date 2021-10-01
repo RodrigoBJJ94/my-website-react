@@ -1,38 +1,232 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #0A1128;
+  line-height: 1.5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h2 {
+  font-size: 55px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 46px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 25px;
+  padding: 10px;
+}
+
+h4 a {
+  color: #0A1128;
+}
+
+h4 a:hover {
+  color:rgba(128, 128, 128, 0.76);
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.main-background {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.white-background {
+  background: white;
+  color: #0A1128;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 30px;
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.menu-spacing {
+  height: 65px;
+}
+
+body .full-width {
+  flex: 1 1 100%;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid lightgrey;
+}
+
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.menu h1 {
+  font-size: 23px;
+  color: #0A1128;
+}
+
+.menu h1 a {
+  color: inherit;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 20px;
+  font-size: 18px;
+  color: #0A1128;
+  position: relative;
+}
+
+.intro-content {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 30px;
+  min-height: 100vh;
+}
+
+.intro-text-content, .intro-img {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.intro-text-content a {
+  color: white;
+  font-style: oblique;
+}
+
+.intro-text-content a:hover {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.intro-text-content p {
+  margin-top: 50px;
+}
+
+.intro-img img, .intro-img svg {
+  max-width: 160%;
+  min-height: auto;
+}
+
+.intro-img2 {
+  width: 150%;
+  align-self: center;
+}
+
+.grid-one-content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.grid-main-heading {
+  margin-bottom: 30px;
+}
+
+.grid-description {
+  padding-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer p {
+  color: #0A1128;
+  margin: 0;
+  padding: 30px;
+  font-style: italic;
+}
+
+.close-menu {
+display: none;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #0A1128;
+  transform: rotate(-90deg);
+  border: 1px solid #0A1128;
+}
+
+.back {
+
+}
+
+.apps-back {
+
+}
+
+.contact p {
+  margin: 10px;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.tab {
+  text-align: justify;
+  margin-bottom: -20px;
+}
+
+.games a{
+  color: white;
+}
+
+.gaming {
+  
 }
