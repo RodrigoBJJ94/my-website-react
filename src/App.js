@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
 import './App.css';
 
+
 export default function App() {
-  const [sections, setSections] = useState('');
+  const [menu, setMenu] = useState(false);
 
   return (
     <>
-      <input type="checkbox" className="close-menu" />
-      <label htmlFor="close-menu-label" title="Close Menu" className="close-menu-label" ></label>
       <aside className="menu white-background">
         <div className="main-content menu-content">
-          <h1 onClick=""><a href="#home">HOME</a></h1>
+          <h1><a href="#home">HOME</a></h1>
           <nav>
             <ul>
             <li><a href="#projects">Projects</a></li>
@@ -87,7 +86,7 @@ export default function App() {
       <footer className="footer white-background">
         <p>Created by Rodrigo Brentano</p>
       </footer>
-      <a href="#" className="back-to-top">➤</a>
+      <a href="#home" className="back-to-top">➤</a>
     </>
   );
 };
