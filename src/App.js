@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
 export default function App() {
+  const [sections, setSections] = useState('');
+
   return (
     <>
       <input type="checkbox" className="close-menu" />
@@ -11,7 +13,7 @@ export default function App() {
           <h1 onClick=""><a href="#home">HOME</a></h1>
           <nav>
             <ul>
-              <li><a href="#projects">Projects</a></li>
+            <li><a href="#projects">Projects</a></li>
               <li><a href="#games">Games</a></li>
               <li><a href="#mobile">Mobile</a></li>
               <li><a href="#contact">Contact</a></li>
@@ -20,25 +22,23 @@ export default function App() {
         </div>
       </aside>
       <div className="menu-spacing"></div>
-      <section className="intro main-background section">
+      <section id="home" className="intro main-background section">
         <div className="main-content intro-content">
           <div className="intro-text-content">
             <h2>Developer</h2>
-            <p>Sou um desenvolvedor front-end e mobile, além disso possuo conhecimento em
-              back-end e banco de dados</p>
-            <p>Possuo conhecimento intermediário nas linguagens HTML, CSS e Javascript, na biblioteca
-              React Native e na tecnologia GitHub Desktop.</p>
-            <p>Possuo conhecimento básico na biblioteca ReactJS, nas linguagens Typescript, Python e Java, nos bancos de dados MongoDB e PostgreSQL e em NodeJS.</p>
+            <p className="tab">I'm a front-end and mobile developer, in addition I have knowledge in back-end and database.</p>
+            <p className="tab">I have intermediate knowledge in HTML, CSS and Javascript, React Native and ReactJS libraries and GitHub Desktop technology.</p>
+            <p className="tab">I have basic knowledge of Typescript and Python languages, MongoDB and PostgreSQL databases and NodeJS.</p>
           </div>
           <div className="intro-img2">
             <img src="" alt="" />
           </div>
         </div>
       </section>
-      <section className="grid-one white-background section back">
+      <section id="projects" className="grid-one white-background section back">
         <div className="main-content grid-one-content">
           <h2>Projects</h2>
-          <p>Segue abaixo alguns dos meus projetos</p>
+          <p>Below are some of my projects</p>
           <h4><a href="https://rodrigobrentano-pomodoro.netlify.app" target="_blank" rel="noreferrer">Pomodoro</a></h4>
           <h4><a href="https://rodrigobrentano-calculator.netlify.app" target="_blank" rel="noreferrer">Calculator</a></h4>
           <h4><a href="https://rodrigobrentano-calculadora-de-imc.netlify.app" target="_blank" rel="noreferrer">Calculator of BMI</a></h4>
@@ -47,10 +47,10 @@ export default function App() {
           <h4><a href="https://rodrigobrentano-timer.netlify.app" target="_blank" rel="noreferrer">Timer</a></h4>
         </div>
       </section>
-      <section className="grid-one main-background section">
+      <section id="games" className="grid-one main-background section">
         <div className="main-content grid-one-content">
           <h2 className="grid-main-heading">Games</h2>
-          <p className="grid-description">Segue abaixo alguns dos meus jogos</p>
+          <p className="grid-description">Below are some of my games</p>
           <div className="games">
             <h4><a href="https://rodrigobrentano-jogo-da-velha.netlify.app" target="_blank" rel="noreferrer">Tic Tac Toe - 2 Player</a></h4>
             <h4><a href="https://rodrigobrentano-jogo-da-velha-versus-cpu.netlify.app" target="_blank" rel="noreferrer">Tic Tac Toe - vs CPU</a></h4>
@@ -59,10 +59,10 @@ export default function App() {
           </div>
         </div>
       </section>
-      <section className="white-background section apps-back">
+      <section id="mobile" className="white-background section apps-back">
         <div className="main-content grid-one-content">
           <h2>Mobile</h2>
-          <p className="grid-description">Segue abaixo meus aplicativos e jogos Android, desenvolvidos em React Native</p>
+          <p className="grid-description">Below are my Android apps and games, developed in React Native</p>
           <h4><a href="https://play.google.com/store/apps/details?id=com.ticTacToeJogoDaVelha" target="_blank" rel="noreferrer">Tic Tac Toe</a></h4>
           <h4><a href="https://play.google.com/store/apps/details?id=com.calculatorCalculadoraCalculator" target="_blank" rel="noreferrer">Calculator</a></h4>
           <h4><a href="https://play.google.com/store/apps/details?id=com.calculatorOfImc" target="_blank" rel="noreferrer">Calculator of IMC</a></h4>
@@ -70,11 +70,11 @@ export default function App() {
           <h4><a href="https://play.google.com/store/apps/details?id=com.headsOrTailsCaraOuCoroa" target="_blank" rel="noreferrer">Heads or Tails</a></h4>
         </div>
       </section>
-      <section className="intro main-background section">
+      <section id="contact" className="intro main-background section">
         <div className="main-content intro-content">
           <div className="intro-text-content contact">
             <h2>Contact</h2>
-            <p>WhatsApp: 51 992191122</p>
+            <p>WhatsApp: +55 51 992191122</p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/rodrigo-brentano-26a7ba204/" target="_blank" rel="noreferrer">https://www.linkedin.com/in/rodrigo-brentano-26a7ba204/</a></p>
             <p>Email: rodrigobjj24@gmail.com</p>
             <p>GitHub: <a href="https://github.com/RodrigoBJJ94" target="_blank" rel="noreferrer">https://github.com/RodrigoBJJ94</a></p>
@@ -85,7 +85,7 @@ export default function App() {
         </div>
       </section>
       <footer className="footer white-background">
-        <p>Create for Rodrigo Brentano</p>
+        <p>Created by Rodrigo Brentano</p>
       </footer>
       <a href="#" className="back-to-top">➤</a>
     </>
