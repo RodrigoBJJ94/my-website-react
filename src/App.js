@@ -25,7 +25,7 @@ export default function App() {
       <section id="home" className="intro main-background section">
         <div className="main-content intro-content">
           <div className="intro-text-content">
-            <h2 className="home-and-contact">Developer</h2>
+            <h2 className="home">Developer</h2>
             <p className="tab">I'm a front-end and mobile developer, in addition I have knowledge in back-end and database</p>
             <p className="tab">I have intermediate knowledge in HTML, CSS and Javascript languages, React Native and ReactJS libraries and GitHub Desktop</p>
             <p className="tab">I have basic knowledge of Typescript and Python languages, MongoDB and PostgreSQL databases and NodeJS</p>
@@ -88,15 +88,12 @@ export default function App() {
       <section id="contact" className="intro main-background section">
         <div className="main-content intro-contact">
           <div className="intro-text-content contact">
-            <h2 className="home-and-contact">Contact</h2>
+            <h2 className="contact">Contact</h2>
             <p><strong>WhatsApp:</strong>  +55 51 992191122</p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rodrigo-brentano-26a7ba204/" target="_blank" rel="noreferrer">https://www.linkedin.com/in/rodrigo-brentano-26a7ba204/</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rodrigo-brentano-26a7ba204/" target="_blank" rel="noreferrer" className="contact-mobile">https://www.linkedin.com/in/rodrigo-brentano-26a7ba204/</a></p>
             <p><strong>Email:</strong> rodrigobjj24@gmail.com</p>
-            <p><strong>GitHub:</strong> <a href="https://github.com/RodrigoBJJ94" target="_blank" rel="noreferrer">https://github.com/RodrigoBJJ94</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/RodrigoBJJ94" target="_blank" rel="noreferrer" className="contact-mobile">https://github.com/RodrigoBJJ94</a></p>
           </div>
-        </div>
-        <div>
-          <img src="" alt="" />
         </div>
       </section>
       <footer className="footer white-background">
