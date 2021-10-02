@@ -26,7 +26,7 @@ h1 {
 h2 {
   font-size: 55px;
   font-weight: 900;
-  margin-bottom: 20px;
+  margin-bottom: -30px;
   text-transform: uppercase;
   line-height: 1.2;
 }
@@ -44,6 +44,24 @@ h4 {
 }
 
 h4 a {
+  color: #fff;
+}
+
+.grid-one-content h4 a {
+  color: #0A1128;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.home-and-contact {
+  margin-bottom: 50px;
+}
+
+.grid-one-content h4 a:hover {
+  color:rgba(128, 128, 128, 0.76);
+}
+
+.projects-white h4 a {
   color: #fff;
 }
 
@@ -74,6 +92,34 @@ img.main-background-svg {
 
 .main-background-svg {
   margin: auto 50px;
+}
+
+img.mobile-background-svg {
+  width: 150%;
+}
+
+.mobile-background-svg {
+  margin: auto 50px;
+  margin-top: 100px;
+}
+
+img.games-background-svg {
+  width: 150%;
+}
+
+.games-background-svg {
+  margin: auto 50px;
+  margin-top: 100px;
+}
+
+img.projects-background-svg {
+  width: 150%;
+}
+
+.projects-background-svg {
+  margin: auto 50px;
+  margin-top: 100px;
+  margin-left: -50px;
 }
 
 .white-background {
@@ -148,6 +194,13 @@ body .full-width {
   min-height: 100vh;
 }
 
+.grid-one-content {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 30px;
+  min-height: 100vh;
+}
+
 .intro-contact {
   display: grid;
   gap: 30px;
@@ -184,12 +237,7 @@ body .full-width {
   align-self: center;
 }
 
-.grid-one-content {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  min-height: 100vh;
-}
+
 
 .grid-main-heading {
   margin-bottom: 30px;
@@ -246,6 +294,7 @@ display: none;
 
 .contact {
   text-align: center;
+  line-height: 2.5;
 }
 
 .tab {
