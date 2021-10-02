@@ -20,11 +20,13 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   text-transform: uppercase;
+  font-weight: 900;
 }
 
 h2 {
   font-size: 55px;
-  margin-bottom: 50px;
+  font-weight: 900;
+  margin-bottom: 20px;
   text-transform: uppercase;
   line-height: 1.2;
 }
@@ -38,15 +40,19 @@ h3 {
 
 h4 {
   font-size: 25px;
-  padding: 10px;
+  padding: 10px 0px;
 }
 
 h4 a {
-  color: #0A1128;
+  color: #fff;
 }
 
 h4 a:hover {
   color:rgba(128, 128, 128, 0.76);
+}
+
+.mobile a {
+  color: #0A1128;
 }
 
 a {
@@ -59,7 +65,15 @@ p {
 
 .main-background {
   color: white;
-  background-color: #0A1128;
+  background-color: #170a28;
+}
+
+img.main-background-svg {
+  width: 140%;
+}
+
+.main-background-svg {
+  margin: auto 50px;
 }
 
 .white-background {
@@ -118,16 +132,24 @@ body .full-width {
 }
 
 .menu ul li a {
+  font-family: 'Montserrat', sans-serif;
   display: block;
   padding: 20px;
   font-size: 18px;
+  font-weight: 700;
   color: #0A1128;
   position: relative;
 }
 
 .intro-content {
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 30px;
+  min-height: 100vh;
+}
+
+.intro-contact {
+  display: grid;
   gap: 30px;
   min-height: 100vh;
 }
@@ -232,7 +254,7 @@ display: none;
 }
 
 .games a{
-  color: white;
+  color: #0A1128;
 }
 
 .gaming {
