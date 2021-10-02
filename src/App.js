@@ -21,7 +21,6 @@ export default function App() {
           </nav>
         </div>
       </aside>
-      <div className="menu-spacing"></div>
       <section id="home" className="intro main-background section">
         <div className="main-content intro-content">
           <div className="intro-text-content">
