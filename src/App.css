@@ -436,4 +436,8 @@ body .full-width {
   .contact h2 {
     margin-bottom: 0px;
   }
+
+  .contact-mobile {
+    font-size: 11.4px;
+  }
 }
