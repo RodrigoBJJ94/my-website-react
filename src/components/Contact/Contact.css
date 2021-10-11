@@ -20,16 +20,29 @@
 
 @media (max-width: 768px) {
   .contact-mobile {
-    font-size: 14px;
+    font-size: 13.56px;
+  }
+
+  .contact-mobile-linkedin {
+    font-size: 10px;
+  }
+
+  .contact h2 {
+    margin-bottom: 40px;
+    margin-top: 10px;
   }
 }
 
 @media (max-width: 320px) {
   .contact h2 {
-    margin-bottom: 0px;
+    margin-bottom: 15px;
   }
 
   .contact-mobile {
     font-size: 11.4px;
+  }
+
+  .contact-mobile-linkedin {
+    font-size: 8.13px;
   }
 }
