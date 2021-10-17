@@ -134,7 +134,7 @@ body .full-width {
   padding-bottom: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .intro-content {
     grid-template-columns: 1fr;
   }
@@ -154,13 +154,38 @@ body .full-width {
   }
 
   p {
-    font-size: 13.56px;
+    font-size: 15.2px;
   }
 
   h4 {
     padding: 4px;
   }
   
+  .grid-description {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  h2 {
+    font-size: 40px;
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 13.56px;
+  }
+
+  h4 {
+    padding: 4px;
+  }
+
   .grid-description {
     text-align: center;
     margin-bottom: 10px;

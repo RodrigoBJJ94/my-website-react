@@ -15,7 +15,18 @@ img.main-background-svg {
   margin-bottom: -20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+  .home {
+    margin-bottom: 10px;
+  }
+
+  img.main-background-svg {
+    width: 120%;
+    margin: 65px -25px;
+  }
+}
+
+@media (max-width: 400px) {
   .home {
     margin-bottom: 10px;
   }

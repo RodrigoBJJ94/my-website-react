@@ -18,7 +18,22 @@
   line-height: 2.5;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+  .contact-mobile {
+    font-size: 15.2px;
+  }
+
+  .contact-mobile-linkedin {
+    font-size: 11.3px;
+  }
+
+  .contact h2 {
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 400px) {
   .contact-mobile {
     font-size: 13.56px;
   }

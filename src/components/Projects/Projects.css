@@ -12,14 +12,21 @@ img.projects-background-svg {
   margin-left: -50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   img.projects-background-svg {
-    width: 60%;
-    margin: -14px 62px;
+    width: 75%;
+    margin: -5px 43px;
   }
   
   .projects-background-svg {
     margin: auto auto;
+  }
+}
+
+@media (max-width: 400px) {
+  img.projects-background-svg {
+    width: 60%;
+    margin: -14px 62px;
   }
 }
 

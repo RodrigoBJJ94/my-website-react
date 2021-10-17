@@ -7,14 +7,21 @@ img.games-background-svg {
   margin-top: 100px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   img.games-background-svg {
     width: 95%;
-    margin: 8px 6px;
+    margin: 47px 6px;
   }
   
   .games-background-svg {
     margin: auto auto;
+  }
+}
+
+@media (max-width: 400px) {
+  img.games-background-svg {
+    width: 95%;
+    margin: 8px 6px;
   }
 }
 
