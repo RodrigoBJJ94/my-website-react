@@ -9,25 +9,23 @@ img.games-background-svg {
 
 @media (max-width: 800px) {
   img.games-background-svg {
-    width: 95%;
-    margin: 47px 6px;
+    width: 0%;
   }
-  
-  .games-background-svg {
-    margin: auto auto;
+
+  .games {
+    margin-top: 40px;
   }
 }
 
 @media (max-width: 400px) {
-  img.games-background-svg {
-    width: 95%;
-    margin: 8px 6px;
+  .games {
+    margin-top: 30px;
   }
 }
 
 @media (max-width: 320px) {
-  img.games-background-svg {
-    width: 90%;
-    margin: 5px 14px;
+  .games {
+    margin-top: 20px;
   }
 }
+

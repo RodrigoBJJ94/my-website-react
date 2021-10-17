@@ -157,8 +157,13 @@ body .full-width {
     font-size: 15.2px;
   }
 
+  p.tab {
+    font-size: 17px;
+    margin-bottom: -8px;
+  }
+
   h4 {
-    padding: 4px;
+    padding: 8px;
   }
   
   .grid-description {
@@ -179,11 +184,16 @@ body .full-width {
   }
 
   p {
-    font-size: 13.56px;
+    font-size: 14px;
+  }
+
+  p.tab {
+    font-size: 16px;
+    margin-bottom: -12px;
   }
 
   h4 {
-    padding: 4px;
+    padding: 6px;
   }
 
   .grid-description {
@@ -203,16 +213,17 @@ body .full-width {
     font-size: 15px;
   }
 
-  p {
-    font-size: 11.26px;
+  p.tab {
+    font-size: 13px;
+    margin-bottom: -20px;
   }
 
   h4 {
-    padding: 0px;
+    padding: 2px;
   }
 
   .grid-description {
     text-align: center;
-    margin-bottom: -5px;
+    margin-bottom: 10px;
   }
 }

@@ -14,25 +14,7 @@ img.projects-background-svg {
 
 @media (max-width: 800px) {
   img.projects-background-svg {
-    width: 75%;
-    margin: -5px 43px;
-  }
-  
-  .projects-background-svg {
-    margin: auto auto;
+    width: 0%;
   }
 }
 
-@media (max-width: 400px) {
-  img.projects-background-svg {
-    width: 60%;
-    margin: -14px 62px;
-  }
-}
-
-@media (max-width: 320px) {
-  img.projects-background-svg {
-    width: 60%;
-    margin: -25px 52px;
-  }
-}

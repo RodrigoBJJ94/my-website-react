@@ -9,25 +9,6 @@ img.mobile-background-svg {
 
 @media (max-width: 800px) {
   img.mobile-background-svg {
-    width: 70%;
-    margin: -10px 55px;
-  }
-  
-  .mobile-background-svg {
-    margin: auto auto;
-  }
-}
-
-@media (max-width: 400px) {
-  img.mobile-background-svg {
-    width: 58%;
-    margin: -25px 65px;
-  }
-}
-
-@media (max-width: 320px) {
-  img.mobile-background-svg {
-    width: 54%;
-    margin: -24px 60px;
+    width: 0%;
   }
 }

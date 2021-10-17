@@ -17,37 +17,24 @@ img.main-background-svg {
 
 @media (max-width: 800px) {
   .home {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   img.main-background-svg {
-    width: 120%;
-    margin: 65px -25px;
+    width: 0%;
   }
 }
 
 @media (max-width: 400px) {
   .home {
     margin-bottom: 10px;
-  }
-
-  img.main-background-svg {
-    width: 90%;
-    margin: 32px 20px;
-  }
-  
-  .main-background-svg {
-    margin: auto auto;
+    margin-top: 10px;
   }
 }
 
 @media (max-width: 320px) {
   .home {
-    margin-bottom: -10px;
-  }
-
-  img.main-background-svg {
-    width: 85%;
-    margin: 20px 22px;
+    margin-bottom: 10px;
   }
 }
