@@ -4,7 +4,7 @@ export default function MobileTitles() {
     return (
         <>
             <h2>Mobile</h2>
-            <p className="grid-description">Below are my Android apps and games, developed in React Native</p>
+            <p className="grid-description">Below are my Android apps and games,<br/> developed in React Native</p>
         </>
     );
 };
