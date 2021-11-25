@@ -198,13 +198,13 @@ body .full-width {
 
   .grid-description {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 }
 
 @media (max-width: 320px) {
   h2 {
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: -25px;
     text-align: center;
   }
@@ -224,6 +224,6 @@ body .full-width {
 
   .grid-description {
     text-align: center;
-    margin-bottom: -4px;
+    margin-bottom: -12px;
   }
 }
