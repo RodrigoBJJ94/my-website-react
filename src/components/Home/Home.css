@@ -13,6 +13,7 @@ img.main-background-svg {
 .tab {
   text-align: justify;
   margin-bottom: -20px;
+  font-size: 18.5px;
 }
 
 @media (max-width: 800px) {
