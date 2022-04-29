@@ -3,9 +3,9 @@ import React from 'react';
 export default function HomeMain() {
     return (
         <>
-            <p className="tab">My focus is on front-end and mobile development, but I can handle back-end and database too</p>
-            <p className="tab">I use several languages, frameworks, libraries, databases and other tools, as follows:</p>
-            <p className="tab">React Native, ReactJS, JavaScript, Laravel, PHP, HTML, CSS, SCSS, Sass, Git, MySQL, PostgreSQL, MongoDB, NodeJS, Express, Redux, Python and TypeScript</p>
+            <p className="tab">My focus is on front-end and mobile development, but I also have knowledge in back-end and database</p>
+            <p className="tab">I use several languages, frameworks, libraries, databases and other tools, the main ones are:</p>
+            <p className="tab">React Native, ReactJS, JavaScript, Flutter, Dart, Laravel, PHP, HTML, CSS, SCSS, Sass, Git, MySQL, GitHub Desktop and Netlify</p>
         </>
     );
 };
